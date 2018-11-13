@@ -1,3 +1,6 @@
+how to use
+
+![example](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/marolive/plantuml-diagrams/master/example/example2.puml)
 
 @startuml
 autonumber
@@ -31,11 +34,3 @@ end note
 A -> User: Done
 deactivate A
 @enduml
-
-##### how to use
-
-```markdown
-![example](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/marolive/plantuml-diagrams/master/example/example2.puml)
-```
-
-![example](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/marolive/plantuml-diagrams/master/example/example2.puml)
