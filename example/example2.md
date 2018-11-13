@@ -1,5 +1,3 @@
-how to use
-
 ![example](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/marolive/plantuml-diagrams/master/example/example2.puml)
 
 @startuml
