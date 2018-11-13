@@ -1,2 +1,23 @@
 # plantuml-diagrams
-[PlantUML](http://plantuml.com/) diagrams
+
+
+[PlantUML](github.com/plantuml/plantuml) diagrams.
+
+#### How to use
+
+Use the PlantUML proxy service as described in this [stackoverflow discussion](https://stackoverflow.com/questions/32203610/how-to-integrate-uml-diagrams-into-gitlab-or-github) to display PlantUML diagrams in github/gitlab markdown. Instead of passing diagram content within the URL,define a remote URL where the content can be fetched from, as e.g. [in a repo](http://www.plantuml.com/plantuml/proxy?src=https://raw.github.com/plantuml/plantuml-server/master/src/main/webapp/resource/test2diagrams.txt).
+  
+This URL can be embedded in an HTML `<img>` tag or a Markdown image syntax `![]()`. To leverage this feature when using GitHub, simply point the remote URL to a raw link of the PlantUML diagram in your repository.
+
+Adding a `?cache=no` might be a good idea because GitHubs caching will prevent your images from updating, if you change the sourcecode.
+
+The following diagram shows what will happen when you open a Markdown page hosted on GitHub that contains such a link:
+
+```markdown
+![example1](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/marolive/plantuml-diagrams/master/example/example1.puml)
+```
+![uncached image](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/marolive/plantuml-diagrams/master/example/example1.puml)
+
+
+##### Resources
+* [anoff.io](https://anoff.io/blog/2018-07-31-diagrams-with-plantuml/)
