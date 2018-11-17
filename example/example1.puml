@@ -1,31 +1,65 @@
 @startuml
-autonumber
-box "UK" #salmon
-  participant User
-  participant A
-end box
+skinparam ParticipantPadding 20
+skinparam BoxPadding 10
+skinparam sequenceArrowThickness 2
+skinparam roundcorner 10
+skinparam maxmessagesize 200
+skinparam shadowing false
+skinparam DefaultFontColor #454645
+skinparam NoteBorderColor #2D74BA
+skinparam NoteBackgroundColor #FFFFFF
+skinparam DatabaseBorderColor #2D74BA
+skinparam DatabaseBackgroundColor #E1F5FE
 
-User -> A: DoWork
+skinparam sequence {
+ArrowColor #00b2e2
+ArrowThickness 2
+
+DividerBorderColor #2D74BA
+DividerBackgroundColor #FFFFFF
+
+ActorBorderColor #2D74BA
+ActorBackgroundColor #E1F5FE
+
+LifeLineBorderColor #2D74BA
+LifeLineBackgroundColor #E1F5FE
+
+ParticipantBorderColor #2D74BA
+ParticipantBackgroundColor #E1F5FE
+
+BoxBorderColor #2D74BA
+BoxBackgroundColor #FFFFFF
+}
+
+autonumber
+box "Home" 
+  participant User 
+  participant John as A #2D74BA
+end box
+actor B
+database C
+
+User -> A: DoWork 
 activate A
 == Initialization ==
 
 A -> B: << createRequest >>
-activate B #tomato
+activate B
 autonumber 15
 B -> C: DoWork
-activate C 
+activate C  #2D74BA
 ...5 minutes latter...
 C --> B: WorkDone
 destroy C
 B --> A: RequestCreated
 deactivate B
-note right
+note right 
   This is **bold**
   This is //italics//
   This is ""monospaced""
-  This is --stroked--
+  Thissss is --stroked--
   This is __underlined__
-  This is ~~waved~~
+  This is ~~waved~~ 
 end note
 A -> User: Done
 deactivate A
