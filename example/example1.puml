@@ -1,6 +1,7 @@
 @startuml
-skinparam ParticipantPadding 20
-skinparam BoxPadding 10
+skinparam ParticipantPadding 5
+skinparam BoxPadding 5
+skinparam Padding 5
 skinparam sequenceArrowThickness 2
 skinparam roundcorner 10
 skinparam maxmessagesize 200
@@ -10,7 +11,7 @@ skinparam NoteBorderColor #2D74BA
 skinparam NoteBackgroundColor #FFFFFF
 skinparam DatabaseBorderColor #2D74BA
 skinparam DatabaseBackgroundColor #E1F5FE
-
+skinparam minClassWidth 70
 skinparam sequence {
 ArrowColor #00b2e2
 ArrowThickness 2
@@ -34,7 +35,7 @@ BoxBackgroundColor #FFFFFF
 autonumber
 box "Home" 
   participant User 
-  participant John as A #2D74BA
+  participant "John Smith" as A #2D74BA
 end box
 actor B
 database C
@@ -59,7 +60,6 @@ note right
   This is ""monospaced""
   Thissss is --stroked--
   This is __underlined__
-  This is ~~waved~~ 
 end note
 A -> User: Done
 deactivate A
