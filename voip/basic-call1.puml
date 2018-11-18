@@ -1,0 +1,63 @@
+@startuml
+skinparam ParticipantPadding 5
+skinparam BoxPadding 5
+skinparam Padding 5
+skinparam sequenceArrowThickness 2
+skinparam roundcorner 10
+skinparam maxmessagesize 200
+skinparam shadowing false
+skinparam DefaultFontColor #454645
+skinparam NoteBorderColor #B7950B
+skinparam NoteBackgroundColor #FCF3CF
+skinparam DatabaseBorderColor #ABB2B9
+skinparam DatabaseBackgroundColor #EAECEE
+skinparam minClassWidth 70
+
+skinparam sequence {
+ArrowColor #454645
+ArrowThickness 2
+
+DividerBorderColor #ABB2B9
+DividerBackgroundColor #FFFFFF
+
+ActorBorderColor #ABB2B9
+ActorBackgroundColor #EAECEE
+
+LifeLineBorderColor #ABB2B9
+LifeLineBackgroundColor #EAECEE
+
+ParticipantBorderColor #ABB2B9
+ParticipantBackgroundColor #EAECEE
+
+BoxBorderColor #ABB2B9
+BoxBackgroundColor #FFFFFF
+}
+
+participant "Alice" as UAC
+participant "Proxy-O" as Proxy1
+participant "Proxy-T" as Proxy2
+participant "Bob" as UAS
+
+UAC     [#red]->   Proxy1: INVITE
+Proxy1 -[#red]->   UAC:    100 Trying
+Proxy1  [#blue]->  Proxy2: INVITE
+Proxy2 -[#blue]->  Proxy1: 100 Trying
+Proxy2  [#green]-> UAS:    INVITE
+UAS    -[#green]-> Proxy2: 100 Trying
+UAS    -[#green]-> Proxy2: 180 Ringing
+Proxy2 -[#blue]->  Proxy1: 180 Ringing
+Proxy1 -[#red]->   UAC: 180 Ringing
+UAS    -[#green]-> Proxy2:   200 OK
+Proxy2 -[#blue]->  Proxy1:   200 OK
+Proxy1 -[#red]->   UAC: 200 OK
+UAC     [#red]->   Proxy1:   ACK
+Proxy1  [#blue]->  Proxy2: ACK
+Proxy2  [#green]-> UAS: ACK
+...RTP Call Established...
+UAC     [#red]->   Proxy1:   BYE
+Proxy1  [#blue]->  Proxy2: BYE
+Proxy2  [#green]-> UAS: BYE
+UAS    -[#green]-> Proxy2:   200 OK
+Proxy2 -[#blue]->  Proxy1: 200 OK
+Proxy1 -[#red]->   UAC: 200 OK
+@enduml
