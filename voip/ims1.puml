@@ -1,0 +1,52 @@
+
+
+@startuml
+skinparam ParticipantPadding 5
+skinparam BoxPadding 5
+skinparam Padding 5
+skinparam sequenceArrowThickness 2
+skinparam roundcorner 10
+skinparam maxmessagesize 200
+skinparam shadowing false
+skinparam DefaultFontColor #454645
+skinparam NoteBorderColor #2D74BA
+skinparam NoteBackgroundColor #FFFFFF
+skinparam DatabaseBorderColor #2D74BA
+skinparam DatabaseBackgroundColor #E1F5FE
+skinparam minClassWidth 70
+skinparam sequence {
+ArrowColor #00b2e2
+ArrowThickness 2
+
+DividerBorderColor #2D74BA
+DividerBackgroundColor #FFFFFF
+
+ActorBorderColor #2D74BA
+ActorBackgroundColor #E1F5FE
+
+LifeLineBorderColor #2D74BA
+LifeLineBackgroundColor #E1F5FE
+
+ParticipantBorderColor #2D74BA
+ParticipantBackgroundColor #E1F5FE
+
+BoxBorderColor #2D74BA
+BoxBackgroundColor #FFFFFF
+}
+
+participant MSS
+participant SBC
+box "CSCF"
+  participant "I-CSCF"
+  participant "S-CSCF"
+end box
+
+MSS      [#red]->     "S-CSCF":  INVITE (O)
+"S-CSCF" [#red]->     AS:        INVITE (O)
+AS       [#blue]->    "S-CSCF":  INVITE (O)
+"I-CSCF" [#blue]->    "S-CSCF":  INVITE (T)
+"S-CSCF" [#blue]->    AS:        INVITE (T)
+AS       [#green]->   "S-CSCF":  INVITE (T)
+"S-CSCF" [#green]->    SBC:      INVITE (T)
+
+@enduml
