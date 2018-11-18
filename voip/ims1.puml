@@ -1,5 +1,3 @@
-
-
 @startuml
 skinparam ParticipantPadding 5
 skinparam BoxPadding 5
@@ -9,28 +7,29 @@ skinparam roundcorner 10
 skinparam maxmessagesize 200
 skinparam shadowing false
 skinparam DefaultFontColor #454645
-skinparam NoteBorderColor #2D74BA
-skinparam NoteBackgroundColor #FFFFFF
-skinparam DatabaseBorderColor #2D74BA
-skinparam DatabaseBackgroundColor #E1F5FE
+skinparam NoteBorderColor #B7950B
+skinparam NoteBackgroundColor #FCF3CF
+skinparam DatabaseBorderColor #ABB2B9
+skinparam DatabaseBackgroundColor #EAECEE
 skinparam minClassWidth 70
+
 skinparam sequence {
-ArrowColor #00b2e2
+ArrowColor #454645
 ArrowThickness 2
 
-DividerBorderColor #2D74BA
+DividerBorderColor #ABB2B9
 DividerBackgroundColor #FFFFFF
 
-ActorBorderColor #2D74BA
-ActorBackgroundColor #E1F5FE
+ActorBorderColor #ABB2B9
+ActorBackgroundColor #EAECEE
 
-LifeLineBorderColor #2D74BA
-LifeLineBackgroundColor #E1F5FE
+LifeLineBorderColor #ABB2B9
+LifeLineBackgroundColor #EAECEE
 
-ParticipantBorderColor #2D74BA
-ParticipantBackgroundColor #E1F5FE
+ParticipantBorderColor #ABB2B9
+ParticipantBackgroundColor #EAECEE
 
-BoxBorderColor #2D74BA
+BoxBorderColor #ABB2B9
 BoxBackgroundColor #FFFFFF
 }
 
