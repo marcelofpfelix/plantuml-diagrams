@@ -21,8 +21,8 @@ The following diagram shows what will happen when you open a Markdown page hoste
 ![uncached image](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/marolive/plantuml-diagrams/master/example/example2.puml)
 
 ##### Alternatives
-* [mermaid.js](https://github.com/knsv/mermaid), not avalailable on github markdown.
-* [draw.io](https://github.com/knsv/mermaid)https://github.com/jgraph/drawio-github
+* [mermaid.js](https://github.com/knsv/mermaid), not avalailable on github markdown
+* [draw.io](https://github.com/jgraph/drawio-github)
 
 ##### Resources
 * [anoff.io](https://anoff.io/blog/2018-07-31-diagrams-with-plantuml/)
