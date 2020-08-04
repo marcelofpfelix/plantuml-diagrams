@@ -5,7 +5,7 @@
 
 #### How to use
 
-Use the PlantUML proxy service as described in this [stackoverflow discussion](https://stackoverflow.com/questions/32203610/how-to-integrate-uml-diagrams-into-gitlab-or-github) to display PlantUML diagrams in github/gitlab markdown. Instead of passing diagram content within the URL,define a remote URL where the content can be fetched from, as e.g. [in a repo](http://www.plantuml.com/plantuml/proxy?src=https://raw.github.com/plantuml/plantuml-server/master/src/main/webapp/resource/test2diagrams.txt).
+Use the PlantUML proxy service as described in this [stackoverflow discussion](https://stackoverflow.com/questions/32203610/how-to-integrate-uml-diagrams-into-gitlab-or-github) to display PlantUML diagrams in github markdown. Instead of passing diagram content within the URL,define a remote URL where the content can be fetched from, as e.g. [in a repo](http://www.plantuml.com/plantuml/proxy?src=https://raw.github.com/plantuml/plantuml-server/master/src/main/webapp/resource/test2diagrams.txt).
   
 This URL can be embedded in an HTML `<img>` tag or a Markdown image syntax `![]()`. To leverage this feature when using GitHub, simply point the remote URL to a raw link of the PlantUML diagram in your repository.
 
@@ -45,7 +45,6 @@ You can use a link to choose a skin:
 ###### Authorization Code Grant
 
 ![oauth_authorization_code](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/marcelofpfelix/plantuml-diagrams/master/oauth_authorization_code.puml)
-
 
 ##### Alternatives
 * [mermaid.js](https://github.com/knsv/mermaid), not avalailable on github markdown
