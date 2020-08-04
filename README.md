@@ -23,7 +23,7 @@ You can use a link to choose a skin:
 
 ```plantuml
 @startuml
-!includeurl https://raw.githubusercontent.com/bandonga/plantuml-diagrams/master/skin_clear.puml!0
+!includeurl https://raw.githubusercontent.com/marcelofpfelix/plantuml-diagrams/master/skins/skin_clear.puml!0
   (...)
 @enduml
 ```
@@ -34,10 +34,9 @@ You can use a link to choose a skin:
 
 ![sequence_demo](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/marcelofpfelix/plantuml-diagrams/master/sequence_demo.puml)
 
+![uncached example1](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/marcelofpfelix/plantuml-diagrams/master/example/example1.puml)
 
-![uncached image](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/marcelofpfelix/plantuml-diagrams/master/example/example1.puml)
-
-![uncached image](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/marcelofpfelix/plantuml-diagrams/master/example/example2.puml)
+![uncached example2](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/marcelofpfelix/plantuml-diagrams/master/example/example2.puml)
 
 ##### Oauth Protocol Flow
 
