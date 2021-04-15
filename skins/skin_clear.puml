@@ -3,7 +3,6 @@
 skinparam ParticipantPadding 5
 skinparam BoxPadding 5
 skinparam Padding 5
-skinparam sequenceArrowThickness 2
 skinparam roundcorner 10
 skinparam maxmessagesize 200
 skinparam shadowing false
@@ -13,8 +12,26 @@ skinparam NoteBackgroundColor #FCF3CF
 skinparam DatabaseBorderColor #ABB2B9
 skinparam DatabaseBackgroundColor #EAECEE
 skinparam minClassWidth 70
+skinparam ArrowColor #454645
+skinparam ArrowThickness 2
+
+
+skinparam activity {
+
+BackgroundColor #EAECEE
+BorderColor #ABB2B9
+BarColor #ABB2B9
+BorderThickness 2
+DiamondBackgroundColor #EAECEE
+DiamondBorderColor #ABB2B9
+StartColor #ABB2B9
+EndColor #ABB2B9
+
+}
+
 
 skinparam sequence {
+
 ArrowColor #454645
 ArrowThickness 2
 
@@ -37,5 +54,6 @@ GroupBorderThickness 1
 GroupBorderColor #ABB2B9
 GroupBackgroundColor #EAECEE
 }
+
 
 @enduml
