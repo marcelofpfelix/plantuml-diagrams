@@ -14,6 +14,7 @@ skinparam DatabaseBackgroundColor #EAECEE
 skinparam minClassWidth 70
 skinparam ArrowColor #454645
 skinparam ArrowThickness 2
+skinparam ConditionEndStyle hline
 
 
 skinparam activity {
