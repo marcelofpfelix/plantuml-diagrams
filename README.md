@@ -14,7 +14,7 @@ Adding a `?cache=no` might be a good idea because GitHubs caching will prevent y
 The following diagram shows what will happen when you open a Markdown page hosted on GitHub that contains such a link:
 
 ```markdown
-![sequence_demo](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/marcelofpfelix/plantuml-diagrams/master/sequence_demo.puml)
+![uncached example2](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/marcelofpfelix/plantuml-diagrams/master/example/example2.puml)
 ```
 
 #### skin
@@ -23,8 +23,9 @@ You can use a link to choose a skin:
 
 ```plantuml
 @startuml
-!includeurl https://raw.githubusercontent.com/marcelofpfelix/plantuml-diagrams/master/skins/skin_clear.puml!0
-  (...)
+!includeurl https://raw.githubusercontent.com/marcelofpfelix/plantuml-diagrams/master/skins/skin_clear.puml
+
+(...)
 @enduml
 ```
 
@@ -32,19 +33,8 @@ You can use a link to choose a skin:
 
 ##### Demo
 
-![sequence_demo](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/marcelofpfelix/plantuml-diagrams/master/sequence_demo.puml)
-
-![uncached example1](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/marcelofpfelix/plantuml-diagrams/master/example/example1.puml)
-
 ![uncached example2](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/marcelofpfelix/plantuml-diagrams/master/example/example2.puml)
 
-##### Oauth Protocol Flow
-
-![oauth_protocol_flow](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/marcelofpfelix/plantuml-diagrams/master/oauth_protocol_flow.puml)
-
-###### Authorization Code Grant
-
-![oauth_authorization_code](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/marcelofpfelix/plantuml-diagrams/master/oauth_authorization_code.puml)
 
 ##### Alternatives
 * [mermaid.js](https://github.com/knsv/mermaid), not avalailable on github markdown
