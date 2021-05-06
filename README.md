@@ -9,7 +9,8 @@ Use the PlantUML proxy service as described in this [stackoverflow discussion](h
   
 This URL can be embedded in an HTML `<img>` tag or a Markdown image syntax `![]()`. To leverage this feature when using GitHub, simply point the remote URL to a raw link of the PlantUML diagram in your repository.
 
-Adding a `?cache=no` might be a good idea because GitHubs caching will prevent your images from updating, if you change the sourcecode.
+* Adding a `?cache=no` might be a good idea because GitHubs caching will prevent your images from updating, if you change the sourcecode.
+* The `&fmt=svg` can be used to change the format
 
 The following diagram shows what will happen when you open a Markdown page hosted on GitHub that contains such a link:
 
@@ -33,7 +34,7 @@ You can use a link to choose a skin:
 
 ##### Demo
 
-![uncached example2](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/marcelofpfelix/plantuml-diagrams/master/example/example2.puml)
+![uncached example2](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=png&src=https://raw.githubusercontent.com/marcelofpfelix/plantuml-diagrams/master/example/example2.puml)
 
 
 ##### Alternatives
