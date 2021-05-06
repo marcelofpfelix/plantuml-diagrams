@@ -14,7 +14,7 @@ Adding a `?cache=no` might be a good idea because GitHubs caching will prevent y
 The following diagram shows what will happen when you open a Markdown page hosted on GitHub that contains such a link:
 
 ```markdown
-![uncached example2](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/marcelofpfelix/plantuml-diagrams/master/example/example2.puml)
+![uncached example2](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/marcelofpfelix/plantuml-diagrams/master/example/example2.puml)
 ```
 
 #### skin
@@ -33,7 +33,7 @@ You can use a link to choose a skin:
 
 ##### Demo
 
-![uncached example2](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/marcelofpfelix/plantuml-diagrams/master/example/example2.puml)
+![uncached example2](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/marcelofpfelix/plantuml-diagrams/master/example/example2.puml)
 
 
 ##### Alternatives
