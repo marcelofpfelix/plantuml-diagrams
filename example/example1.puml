@@ -6,7 +6,7 @@ skinparam backgroundcolor #FDFEFE
 autonumber
 box "Home" 
   participant User 
-  participant "John Smith" as A #2D74BA
+  participant "John Smith" as A #lightblue
 end box
 actor B
 database C
@@ -19,7 +19,7 @@ A -> B: << createRequest >>
 activate B
 autonumber 15
 B -> C: DoWork
-activate C  #2D74BA
+activate C  #pink
 ...5 minutes latter...
 C --> B: WorkDone
 destroy C
