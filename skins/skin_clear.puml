@@ -1,101 +1,5 @@
 @startuml
 
-skinparam DefaultFontColor #454645
-skinparam backgroundcolor transparent
-skinparam ParticipantPadding 5
-skinparam BoxPadding 5
-skinparam Padding 5
-skinparam roundcorner 10
-skinparam maxmessagesize 200
-skinparam shadowing false
-skinparam minClassWidth 70
-skinparam ArrowColor #454645
-skinparam ArrowThickness 2
-skinparam ConditionEndStyle hline
-
-skinparam activity {
-FontColor #454645
-BackgroundColor #EAECEE
-BorderColor #ABB2B9
-BarColor #ABB2B9
-BorderThickness 2
-DiamondBackgroundColor #EAECEE
-DiamondBorderColor #ABB2B9
-StartColor #ABB2B9
-EndColor #ABB2B9
-}
-
-
-skinparam sequence {
-FontColor #454645
-ArrowColor #454645
-ArrowThickness 2
-DividerBorderColor #ABB2B9
-DividerBackgroundColor #FFFFFF
-DividerFontColor #454645
-ActorBorderColor #ABB2B9
-ActorBackgroundColor #EAECEE
-LifeLineBorderColor #ABB2B9
-LifeLineBackgroundColor #EAECEE
-ParticipantBorderColor #ABB2B9
-ParticipantBackgroundColor #EAECEE
-ParticipantFontColor #454645
-BoxBorderColor #ABB2B9
-BoxBackgroundColor transparent
-GroupBorderThickness 1
-GroupBorderColor #ABB2B9
-GroupBackgroundColor #EAECEE
-}
-
-skinparam note {
-FontColor #454645
-BorderColor #B7950B
-BackgroundColor #FCF3CF
-}
-
-skinparam card {
-FontColor #454645
-BackgroundColor #EAECEE
-BorderColor #ABB2B9
-BorderThickness 2
-ArrowColor #454645
-FontColor #454645
-}
-
-skinparam storage {
-FontColor #454645
-BackgroundColor #EAECEE
-BorderColor #ABB2B9
-BorderThickness 2
-}
-
-skinparam component {
-FontColor #454645
-BackgroundColor #EAECEE
-BorderColor #ABB2B9
-BorderThickness 2
-}
-
-skinparam node {
-FontColor #454645
-BackgroundColor #EAECEE
-BorderColor #ABB2B9
-BorderThickness 2
-}
-
-skinparam database {
-BackgroundColor #EAECEE
-BorderColor #ABB2B9
-BorderThickness 2
-}
-
-skinparam interface {
-FontColor #454645
-BackgroundColor #EAECEE
-BorderColor #ABB2B9
-BorderThickness 2
-}
-
 !$turquoise = "#1ABC9C"
 !$greensea = "#16A085"
 !$emerald = "#2ECC71"
@@ -116,5 +20,108 @@ BorderThickness 2
 !$silver = "#BDC3C7"
 !$concrete = "#95A5A6"
 !$asbestos = "#7F8C8D"
+
+!$sunflower100 = "#FCF3CF"
+!$sunflower700 = "#B7950B"
+
+!$midnightblue50 = "#EAECEE"
+!$midnightblue200 = "#ABB2B9"
+!$midnightblue900 = "#17202A"
+
+skinparam DefaultFontColor $midnightblue900
+skinparam backgroundcolor transparent
+skinparam ParticipantPadding 5
+skinparam BoxPadding 5
+skinparam Padding 5
+skinparam roundcorner 10
+skinparam maxmessagesize 200
+skinparam shadowing false
+skinparam minClassWidth 70
+skinparam ArrowColor $midnightblue900
+skinparam ArrowThickness 2
+skinparam ConditionEndStyle hline
+
+skinparam activity {
+FontColor $midnightblue900
+BackgroundColor !$midnightblue50
+BorderColor $midnightblue200
+BarColor $midnightblue200
+BorderThickness 2
+DiamondBackgroundColor !$midnightblue50
+DiamondBorderColor $midnightblue200
+StartColor $midnightblue200
+EndColor $midnightblue200
+}
+
+
+skinparam sequence {
+FontColor $midnightblue900
+ArrowColor $midnightblue900
+ArrowThickness 2
+DividerBorderColor $midnightblue200
+DividerBackgroundColor #FFFFFF
+DividerFontColor $midnightblue900
+ActorBorderColor $midnightblue200
+ActorBackgroundColor !$midnightblue50
+LifeLineBorderColor $midnightblue200
+LifeLineBackgroundColor !$midnightblue50
+ParticipantBorderColor $midnightblue200
+ParticipantBackgroundColor !$midnightblue50
+ParticipantFontColor $midnightblue900
+BoxBorderColor $midnightblue200
+BoxBackgroundColor transparent
+GroupBorderThickness 1
+GroupBorderColor $midnightblue200
+GroupBackgroundColor !$midnightblue50
+}
+
+skinparam note {
+FontColor $midnightblue900
+BorderColor $sunflower700 
+BackgroundColor $sunflower100 
+}
+
+skinparam card {
+FontColor $midnightblue900
+BackgroundColor !$midnightblue50
+BorderColor $midnightblue200
+BorderThickness 2
+ArrowColor $midnightblue900
+FontColor $midnightblue900
+}
+
+skinparam storage {
+FontColor $midnightblue900
+BackgroundColor !$midnightblue50
+BorderColor $midnightblue200
+BorderThickness 2
+}
+
+skinparam component {
+FontColor $midnightblue900
+BackgroundColor !$midnightblue50
+BorderColor $midnightblue200
+BorderThickness 2
+}
+
+skinparam node {
+FontColor $midnightblue900
+BackgroundColor !$midnightblue50
+BorderColor $midnightblue200
+BorderThickness 2
+}
+
+skinparam database {
+BackgroundColor !$midnightblue50
+BorderColor $midnightblue200
+BorderThickness 2
+}
+
+skinparam interface {
+FontColor $midnightblue900
+BackgroundColor !$midnightblue50
+BorderColor $midnightblue200
+BorderThickness 2
+}
 
 @enduml
