@@ -15,6 +15,8 @@ This URL can be embedded in an HTML `<img>` tag or a Markdown image syntax `![](
 The following diagram shows what will happen when you open a Markdown page hosted on GitHub that contains such a link:
 
 ```markdown
+![uncached example1](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/marcelofpfelix/plantuml-diagrams/master/example/example1.puml)
+
 ![uncached example2](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/marcelofpfelix/plantuml-diagrams/master/example/example2.puml)
 ```
 
@@ -34,7 +36,9 @@ You can use a link to choose a skin:
 
 ##### Demo
 
-![uncached example2](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=png&src=https://raw.githubusercontent.com/marcelofpfelix/plantuml-diagrams/master/example/example2.puml)
+![example1](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/marcelofpfelix/plantuml-diagrams/master/example/example1.puml)
+
+![example2](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/marcelofpfelix/plantuml-diagrams/master/example/example2.puml)
 
 
 ##### Alternatives
@@ -44,5 +48,5 @@ You can use a link to choose a skin:
 ##### Resources
 * [anoff.io](https://anoff.io/blog/2018-07-31-diagrams-with-plantuml/)
 * https://www.planttext.com/
-* https://deepu.js.org/svg-seq-diagram/Reference_Guide.pdf
+* https://plantuml-documentation.readthedocs.io/
 
