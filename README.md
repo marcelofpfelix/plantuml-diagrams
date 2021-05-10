@@ -15,9 +15,11 @@ This URL can be embedded in an HTML `<img>` tag or a Markdown image syntax `![](
 The following diagram shows what will happen when you open a Markdown page hosted on GitHub that contains such a link:
 
 ```markdown
-![uncached example1](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/marcelofpfelix/plantuml-diagrams/master/example/example1.puml)
+![example1](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/marcelofpfelix/plantuml-diagrams/master/example/example1.puml)
 
-![uncached example2](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/marcelofpfelix/plantuml-diagrams/master/example/example2.puml)
+![example1_clear](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/marcelofpfelix/plantuml-diagrams/master/example/example1_clear.puml)
+
+![example1_dark](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/marcelofpfelix/plantuml-diagrams/master/example/example1_dark.puml)
 ```
 
 #### skin
@@ -34,10 +36,14 @@ You can use a link to choose a skin:
 
 ##### Demo
 
+* **default:**
 ![example1](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/marcelofpfelix/plantuml-diagrams/master/example/example1.puml)
 
-![example2](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/marcelofpfelix/plantuml-diagrams/master/example/example2.puml)
+* **clear:**
+![example1_clear](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/marcelofpfelix/plantuml-diagrams/master/example/example1_clear.puml)
 
+* **dark:**
+![example1_dark](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/marcelofpfelix/plantuml-diagrams/master/example/example1_dark.puml)
 
 ##### Alternatives
 * [mermaid.js](https://github.com/knsv/mermaid), not avalailable on github markdown
