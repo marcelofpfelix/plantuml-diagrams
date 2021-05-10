@@ -5,7 +5,7 @@ skinparam backgroundcolor #17202A
 
 autonumber
 box "Home" 
-  participant User 
+  participant User << (M,lightgreen) >> 
   participant "John Smith" as A #lightblue
 end box
 actor B
