@@ -1,6 +1,7 @@
 @startuml
 
-!includeurl https://raw.githubusercontent.com/marcelofpfelix/plantuml-diagrams/master/skins/skin_blue.puml!0
+!includeurl https://raw.githubusercontent.com/marcelofpfelix/plantuml-diagrams/master/skins/skin_clear.puml
+skinparam backgroundcolor #FDFEFE
 
 autonumber
 box "Home" 
