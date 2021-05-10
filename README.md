@@ -32,8 +32,6 @@ You can use a link to choose a skin:
 @enduml
 ```
 
-!includeurl https://raw.githubusercontent.com/bandonga/plantuml-diagrams/master/skin_clear.puml!0
-
 ##### Demo
 
 ![example1](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/marcelofpfelix/plantuml-diagrams/master/example/example1.puml)
