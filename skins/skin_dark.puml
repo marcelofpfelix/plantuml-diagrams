@@ -1,93 +1,9 @@
 @startuml
 
+!includeurl https://raw.githubusercontent.com/marcelofpfelix/plantuml-diagrams/master/skins/skin_clear.puml
+
 skinparam backgroundcolor transparent
-skinparam ParticipantPadding 5
-skinparam BoxPadding 5
-skinparam Padding 5
-skinparam roundcorner 10
-skinparam maxmessagesize 200
-skinparam shadowing false
 skinparam DefaultFontColor #454645
-skinparam NoteBorderColor #B7950B
-skinparam NoteBackgroundColor #FCF3CF
-skinparam DatabaseBorderColor #ABB2B9
-skinparam DatabaseBackgroundColor #EAECEE
-skinparam minClassWidth 70
 skinparam ArrowColor #ABB2B9
-skinparam ArrowThickness 2
-skinparam ConditionEndStyle hline
-
-
-skinparam activity {
-
-BackgroundColor #EAECEE
-BorderColor #ABB2B9
-BarColor #ABB2B9
-BorderThickness 2
-DiamondBackgroundColor #EAECEE
-DiamondBorderColor #ABB2B9
-StartColor #ABB2B9
-EndColor #ABB2B9
-
-}
-
-
-skinparam sequence {
-
-ArrowColor #454645
-ArrowThickness 2
-
-DividerBorderColor #ABB2B9
-DividerBackgroundColor #FFFFFF
-
-ActorBorderColor #ABB2B9
-ActorBackgroundColor #EAECEE
-
-LifeLineBorderColor #ABB2B9
-LifeLineBackgroundColor #EAECEE
-
-ParticipantBorderColor #ABB2B9
-ParticipantBackgroundColor #EAECEE
-
-BoxBorderColor #ABB2B9
-BoxBackgroundColor #FFFFFF
-
-GroupBorderThickness 1
-GroupBorderColor #ABB2B9
-GroupBackgroundColor #EAECEE
-}
-
-skinparam card {
-BackgroundColor #EAECEE
-BorderColor #ABB2B9
-BorderThickness 2
-ArrowColor #454645
-FontColor #454645
-}
-
-skinparam storage {
-BackgroundColor #EAECEE
-BorderColor #ABB2B9
-BorderThickness 2
-}
-
-skinparam component {
-BackgroundColor #EAECEE
-BorderColor #ABB2B9
-BorderThickness 2
-}
-
-skinparam node {
-BackgroundColor #EAECEE
-BorderColor #ABB2B9
-BorderThickness 2
-}
-
-skinparam interface {
-BackgroundColor #EAECEE
-BorderColor #ABB2B9
-BorderThickness 2
-}
-
 
 @enduml
