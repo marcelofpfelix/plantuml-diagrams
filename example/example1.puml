@@ -1,9 +1,10 @@
 @startuml
 
 autonumber
+hide footbox
 box "Home" 
-  participant User << (M,lightgreen) >> 
-  participant "John Smith" as A #lightblue
+  participant User << (M,#27AE60) >> 
+  participant "John Smith" as A #3498DB
 end box
 actor B
 database C
@@ -16,7 +17,7 @@ A -> B: << createRequest >>
 activate B
 autonumber 15
 B -> C: DoWork
-activate C  #pink
+activate C  #E74C3C
 ...5 minutes latter...
 C --> B: WorkDone
 destroy C
