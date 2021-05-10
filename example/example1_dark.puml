@@ -1,0 +1,7 @@
+@startuml
+
+!includeurl https://raw.githubusercontent.com/marcelofpfelix/plantuml-diagrams/master/skins/skin_dark.puml!0
+skinparam backgroundcolor #17202A
+
+!includeurl https://raw.githubusercontent.com/marcelofpfelix/plantuml-diagrams/master/example/example1.puml
+@enduml
