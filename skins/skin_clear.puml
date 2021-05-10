@@ -47,8 +47,8 @@ GroupBackgroundColor #EAECEE
 
 skinparam note {
 FontColor #454645
-skinparam BorderColor #B7950B
-skinparam BackgroundColor #FCF3CF
+BorderColor #B7950B
+BackgroundColor #FCF3CF
 }
 
 skinparam card {
