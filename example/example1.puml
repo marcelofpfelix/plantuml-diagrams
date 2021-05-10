@@ -1,8 +1,5 @@
 @startuml
 
-!includeurl https://raw.githubusercontent.com/marcelofpfelix/plantuml-diagrams/master/skins/skin_clear.puml
-skinparam backgroundcolor #FDFEFE
-
 autonumber
 box "Home" 
   participant User << (M,lightgreen) >> 
