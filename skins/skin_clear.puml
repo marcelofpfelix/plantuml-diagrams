@@ -32,14 +32,14 @@ ArrowColor #454645
 ArrowThickness 2
 DividerBorderColor #ABB2B9
 DividerBackgroundColor #FFFFFF
-DividerFontColor #252a34
+DividerFontColor #454645
 ActorBorderColor #ABB2B9
 ActorBackgroundColor #EAECEE
 LifeLineBorderColor #ABB2B9
 LifeLineBackgroundColor #EAECEE
 ParticipantBorderColor #ABB2B9
 ParticipantBackgroundColor #EAECEE
-ParticipantFontColor #252a34
+ParticipantFontColor #454645
 BoxBorderColor #ABB2B9
 BoxBackgroundColor transparent
 GroupBorderThickness 1
