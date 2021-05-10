@@ -3,7 +3,7 @@
 !includeurl https://raw.githubusercontent.com/marcelofpfelix/plantuml-diagrams/master/skins/skin_clear.puml
 
 skinparam backgroundcolor transparent
-skinparam DefaultFontColor #ABB2B9
-skinparam ArrowColor #ABB2B9
+skinparam DefaultFontColor $midnightblue200
+skinparam ArrowColor $midnightblue200
 
 @enduml
