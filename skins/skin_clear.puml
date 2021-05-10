@@ -1,25 +1,20 @@
 @startuml
 
+skinparam DefaultFontColor #454645
+skinparam backgroundcolor transparent
 skinparam ParticipantPadding 5
 skinparam BoxPadding 5
 skinparam Padding 5
 skinparam roundcorner 10
 skinparam maxmessagesize 200
 skinparam shadowing false
-skinparam DefaultFontColor #454645
-skinparam NoteBorderColor #B7950B
-skinparam NoteBackgroundColor #FCF3CF
-skinparam DatabaseBorderColor #ABB2B9
-skinparam DatabaseBackgroundColor #EAECEE
-skinparam backgroundcolor transparent
 skinparam minClassWidth 70
 skinparam ArrowColor #454645
 skinparam ArrowThickness 2
 skinparam ConditionEndStyle hline
 
-
 skinparam activity {
-
+FontColor #454645
 BackgroundColor #EAECEE
 BorderColor #ABB2B9
 BarColor #ABB2B9
@@ -28,36 +23,36 @@ DiamondBackgroundColor #EAECEE
 DiamondBorderColor #ABB2B9
 StartColor #ABB2B9
 EndColor #ABB2B9
-
 }
 
 
 skinparam sequence {
-
+FontColor #454645
 ArrowColor #454645
 ArrowThickness 2
-
 DividerBorderColor #ABB2B9
 DividerBackgroundColor #FFFFFF
-
 ActorBorderColor #ABB2B9
 ActorBackgroundColor #EAECEE
-
 LifeLineBorderColor #ABB2B9
 LifeLineBackgroundColor #EAECEE
-
 ParticipantBorderColor #ABB2B9
 ParticipantBackgroundColor #EAECEE
-
 BoxBorderColor #ABB2B9
 BoxBackgroundColor transparent
-
 GroupBorderThickness 1
 GroupBorderColor #ABB2B9
 GroupBackgroundColor #EAECEE
 }
 
+skinparam note {
+FontColor #454645
+skinparam BorderColor #B7950B
+skinparam BackgroundColor #FCF3CF
+}
+
 skinparam card {
+FontColor #454645
 BackgroundColor #EAECEE
 BorderColor #ABB2B9
 BorderThickness 2
@@ -66,28 +61,38 @@ FontColor #454645
 }
 
 skinparam storage {
+FontColor #454645
 BackgroundColor #EAECEE
 BorderColor #ABB2B9
 BorderThickness 2
 }
 
 skinparam component {
+FontColor #454645
 BackgroundColor #EAECEE
 BorderColor #ABB2B9
 BorderThickness 2
 }
 
 skinparam node {
+FontColor #454645
+BackgroundColor #EAECEE
+BorderColor #ABB2B9
+BorderThickness 2
+}
+
+skinparam database {
+FontColor #454645
 BackgroundColor #EAECEE
 BorderColor #ABB2B9
 BorderThickness 2
 }
 
 skinparam interface {
+FontColor #454645
 BackgroundColor #EAECEE
 BorderColor #ABB2B9
 BorderThickness 2
 }
-
 
 @enduml
