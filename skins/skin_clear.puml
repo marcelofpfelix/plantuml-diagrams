@@ -59,7 +59,7 @@ FontColor $midnightblue900
 ArrowColor $midnightblue900
 ArrowThickness 2
 DividerBorderColor $midnightblue200
-DividerBackgroundColor #FFFFFF
+DividerBackgroundColor $midnightblue50
 DividerFontColor $midnightblue900
 ActorBorderColor $midnightblue200
 ActorBackgroundColor $midnightblue50
