@@ -32,12 +32,14 @@ ArrowColor #454645
 ArrowThickness 2
 DividerBorderColor #ABB2B9
 DividerBackgroundColor #FFFFFF
+DividerFontColor #252a34
 ActorBorderColor #ABB2B9
 ActorBackgroundColor #EAECEE
 LifeLineBorderColor #ABB2B9
 LifeLineBackgroundColor #EAECEE
 ParticipantBorderColor #ABB2B9
 ParticipantBackgroundColor #EAECEE
+ParticipantFontColor #252a34
 BoxBorderColor #ABB2B9
 BoxBackgroundColor transparent
 GroupBorderThickness 1
@@ -82,7 +84,6 @@ BorderThickness 2
 }
 
 skinparam database {
-FontColor #454645
 BackgroundColor #EAECEE
 BorderColor #ABB2B9
 BorderThickness 2
