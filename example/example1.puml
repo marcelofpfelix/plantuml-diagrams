@@ -32,4 +32,8 @@ note right
 end note
 A -> User: Done
 deactivate A
+
+  footer //This is an example of a **sequence diagram**//
+
+
 @enduml
